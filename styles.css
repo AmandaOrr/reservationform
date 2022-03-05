@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*Universal Styles*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*general styling*/
+body{
+    background-image: url(https://wallpaperaccess.com/full/5819894.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: ;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: black;
+}
+
+main{
+    background-color: #8963ba;
+    color: black;
+    margin: 5% 25%;
+    padding-top: ;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding: 5px;
+}
+
+em{
+    text-align: center;
+}
+
+p{
+    margin: 5% auto;
+    text-align: left;
+    max-width: 45%;
+    line-height: 1.1em;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+h1, h2{
+    font-family: 'Days One', sans-serif;
+    color: #8963ba;
+}
+
+p, label, h3, a, select{
+    font-family: 'Trispace', sans-serif;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+/*navigation*/
+ul{
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 5px 55px;
+}
+
+li{
+    display: inline;
+    padding: 10px 15px;
+    background-color: black;
+    border: 1px solid #8963ba;
+    border-radius: 9px;
+}
+
+li a{
+    color: white;
+    padding: 11px 10px;
+}
+
+/*link styles*/
+
+a{
+    color: white;
+    text-decoration: underline;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #EC4E20;
+    text-decoration: line-through;
+}
+
+a:visited{
+    color: #8963ba;
+}
+/*Form Styles */
+
+form{
+    width: 50vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+    padding: 1em;
+    background: black;
+    color: white;
+}
+
+label{
+    display: block;
+    margin: 15px 15px;
+    padding: 5px 5px;
+}
+
+select{
+    margin: 15px 15px;
+    padding: 5px 5px;
+}
+
+fieldset{
+    border: none;
+    margin: 20px 0;
+    padding: 5px 5px;
+}
+
+fieldset:not(:last-of-type){
+    border-bottom: 2px solid #D1AC00;
+}
+
+input, textarea, select {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: black;
+}
+
+textarea{
+    margin: 10px 0 0 0;
+	width: 100%;
+}
+
+input[type="submit"]{
+    display: block;
+  width: 50%;
+  margin: 5px auto;
+  height: 2em;
+  font-size: 1.5rem;
+  background-color: #EC4E20;
+  border-color: white;
+  min-width: 300px;
+  cursor: pointer;
+  font-family: 'Trispace', sans-serif;
+}

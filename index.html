@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="">
+   <title>Interwebs Cafe</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+     <header>
+         <h1 id="title">InterWebs Cafe</h1>
+         <h2>The Worlds First Completely Digital Party Atmosphere</h2>
+         <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="index.html">Reservations</a></li>
+            </ul>
+        </nav>
+     </header>
+     <main>
+        <h3>Welcome to the Interwebs Cafe</h3><p id="description">Here we offer a large choice of digital atmospheres to host your live events, parties, and interactive adventures with your friends around the world.<br><br><em>Please fill out the form below to make a reservation</em></p>
+         <form action="" id="survey-form" method="post">
+             <fieldset>
+                 <h2>Reservation Information</h2>
+                <label for="name" id="name-label">First Name: <input type="text" id="name" name="name" placeholder="First Name" required></label>
+                <label for="lastname" id="lastname">Last Name: <input type="text" name="lastname" placeholder="Last Name" required></label>
+                <label for="email" id="email-label">Email Address: <input type="email" name="email" id="email" placeholder="Email Address" required></label>
+             </fieldset>
+             <fieldset>
+                 <h2>Tell us about your party</h2>
+                 <label for="number" id="number-label"> Number of People: <input type="number" id="number" name="number" placeholder="-" min="2" max="12" required></label>
+                 <label for="outdoor/indoor" id="select_menu">Where would you like to travel to?
+                     <select id="dropdown">
+                         <option value="">Select an Option</option>
+                         <option value="indoor">Virtual Beach</option>
+                         <option value="outdoor">Fine Dining Atmosphere</option>
+                         <option value="bar">Bar Seating</option>
+                         <option value="space">Space Station</option>
+                         <option value="cyber">CyberPunk Flat</option>
+                     </select>
+                 <h3>Please Select One Additional Room Feature:</h3>
+                 <label for="additional"><input type="radio" name="additonal" value="virtual">Virtual Bartender</label>
+                 <label for="additional"><input type="radio" name="additonal" value="karoke">Karoke Hub</label>
+                 <label for="additional"><input type="radio" name="additonal" value="beatsaber">Beatsaber attachments</label>
+                 <label for="additional"><input type="radio" name="additional" value="boss">Virtual Boss Battle</label>
+                 <h3>Please read and select all options below:</h3>
+                 <label for="terms"><input type="checkbox" name="terms" value="information" required> I confirm all information given to be acurate</label>
+                 <label for="terms"><input type="checkbox" name="terms" value="conditions" required>I have read and agree to all <a href="#">Terms and Conditions</a></label>
+                 <label for="terms"><input type="checkbox" name="terms" value="cancellation" required>I agree to the <a href="#">Cancelation and Refund Policy</a></label>
+             </fieldset>
+             <fieldset>
+                 <label for="">Do you Require any Special Accomodations?<textarea rows="5" cols="30" placeholder="Please list any special requirements here"></textarea>
+             </fieldset>
+             <input type="submit" value="Submit" id="submit" />
+         </form>
+     </main>
+     <footer>
+         <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="index.html">Reservations</a></li>
+            </ul>
+         </nav>
+     </footer>
+ </body>
+</html>
